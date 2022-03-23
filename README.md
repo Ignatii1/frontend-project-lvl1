@@ -1,5 +1,4 @@
 ### Hexlet tests and linter status:
-![Actions Status](/workflows/hexlet-check/badge.svg)
 
 [![Node CI](https://github.com/Ignatii1/frontend-project-lvl1/actions/workflows/Linter.yml/badge.svg?event=push)](https://github.com/Ignatii1/frontend-project-lvl1/actions/workflows/Linter.yml)
 
