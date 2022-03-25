@@ -1,13 +1,8 @@
 import readlineSync from 'readline-sync';
 import getRandomNumber from '../src/randomNumber.js';
+import greeting from '../src/cli.js';
 
-const name = readlineSync.question('May I have your name? ');
-const greeting = () => {
-  console.log('Welcome to the Brain Games!');
-  console.log(`Hello, ${name}`);
-};
-
-greeting();
+const name = greeting();
 
 const isEven = (num) => num % 2 === 0;
 
@@ -31,6 +26,5 @@ function gameEven() {
     }
   }
 }
-gameEven();
 
 export default gameEven;

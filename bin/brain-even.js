@@ -1,6 +1,4 @@
 #!/usr/bin/env node
+import gameEven from '../games/even.js';
 
-import greeting from '../src/cli.js';
-
-greeting();
-
+const even = gameEven();
