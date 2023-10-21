@@ -2,6 +2,6 @@
 
 /* trunk-ignore(eslint/import/no-named-as-default) */
 /* trunk-ignore(eslint/import/no-named-as-default-member) */
-import greeting from '../src/cli.js';
+import selectGame from '../games/selectGame.js';
 
-greeting();
+selectGame();
