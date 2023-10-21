@@ -8,6 +8,7 @@
 
 Installation steps:
 1) make install;
+2) make brain-games;
 
 
 ASCIINEMA:
