@@ -6,7 +6,8 @@ function gameCalc() {
   const secondNumber = getRandomNumber(100);
   const operators = ['*', '+', '-'];
   const randomOperator = operators[Math.floor(Math.random() * operators.length)];
-  let userAnswer = readlineSync.question(`What is the result of the expression? ${firstNumber} ${randomOperator} ${secondNumber} `);
+  console.log('What is the result of the expression?');
+  let userAnswer = readlineSync.question(`Question: ${firstNumber} ${randomOperator} ${secondNumber} `);
   let correctAnswer;
   switch (randomOperator) {
     case '*':
